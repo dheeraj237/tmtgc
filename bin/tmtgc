@@ -1,0 +1,114 @@
+#!/bin/bash
+set -euo pipefail
+
+REPO_USER="dheeraj237"
+REPO_NAME="tmtgc"
+BRANCH="main"
+RAW_BASE="https://raw.githubusercontent.com/${REPO_USER}/${REPO_NAME}/${BRANCH}"
+
+# Resolve script directory without a subshell (saves ~20ms vs cd+pwd)
+_self="${BASH_SOURCE[0]}"
+[[ "$_self" != /* ]] && _self="$PWD/$_self"
+SCRIPT_DIR="${_self%/*}"
+
+# Data directory: env override → adjacent share/ (any prefix) → system → local dev
+if [[ -n "${TMTGC_DATA:-}" ]]; then
+    DATA_DIR="$TMTGC_DATA"
+elif [[ -d "$SCRIPT_DIR/../share/tmtgc" ]]; then
+    DATA_DIR="$SCRIPT_DIR/../share/tmtgc"
+elif [[ -d "/usr/local/share/tmtgc" ]]; then
+    DATA_DIR="/usr/local/share/tmtgc"
+else
+    DATA_DIR="$SCRIPT_DIR/../data"
+fi
+
+FILE_REAL="$DATA_DIR/tmtgc.txt"
+FILE_GEN="$DATA_DIR/tmtgc-gen.txt"
+
+usage() {
+    cat <<EOF
+Usage: tmtgc [OPTIONS]
+
+Print a random Soft Skills Engineering intro.
+
+Options:
+  -o, --originals Pick from real podcast episode intros only
+  -g, --gen       Pick from generated humorous intros only
+  -a, --all       Pick from both real and generated intros (default)
+  -u, --update    Re-download intro files from GitHub
+  -h, --help      Show this help
+EOF
+}
+
+# Reservoir sampling: streams the file without storing all entries in memory.
+# Each entry is kept with probability 1/k (k = entries seen so far), which
+# gives uniform distribution without knowing total count upfront.
+# Handles multiple files: FNR==1 && NR>1 flushes the in-progress entry at
+# every file boundary so entries never bleed across files.
+_PICK_AWK='
+BEGIN { srand(seed); n = 0; rec = ""; chosen = "" }
+FNR == 1 && NR > 1 {
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rec)
+    if (length(rec) > 0) { n++; if (rand() * n < 1) chosen = rec }
+    rec = ""
+}
+/^%$/ {
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rec)
+    if (length(rec) > 0) { n++; if (rand() * n < 1) chosen = rec }
+    rec = ""; next
+}
+{ rec = (rec == "") ? $0 : rec "\n" $0 }
+END {
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", rec)
+    if (length(rec) > 0) { n++; if (rand() * n < 1) chosen = rec }
+    if (n == 0) exit 1
+    print chosen
+}
+'
+
+pick_fortune() {
+    local file="$1"
+    [[ -f "$file" ]] || { echo "Error: data file not found: $file" >&2; exit 1; }
+    awk -v seed="$RANDOM$RANDOM" "$_PICK_AWK" "$file"
+}
+
+pick_combined() {
+    # Pass both files directly to awk — no temp file, no extra processes
+    [[ -f "$FILE_REAL" ]] || { echo "Error: data file not found: $FILE_REAL" >&2; exit 1; }
+    [[ -f "$FILE_GEN"  ]] || { echo "Error: data file not found: $FILE_GEN"  >&2; exit 1; }
+    awk -v seed="$RANDOM$RANDOM" "$_PICK_AWK" "$FILE_REAL" "$FILE_GEN"
+}
+
+do_update() {
+    echo "Updating intro database from GitHub..."
+    local ok=0
+    if command -v curl &>/dev/null; then
+        curl -fsSL "${RAW_BASE}/data/tmtgc.txt"    -o "$FILE_REAL" && ok=$((ok+1))
+        curl -fsSL "${RAW_BASE}/data/tmtgc-gen.txt" -o "$FILE_GEN"  && ok=$((ok+1))
+    elif command -v wget &>/dev/null; then
+        wget -qO "$FILE_REAL" "${RAW_BASE}/data/tmtgc.txt"    && ok=$((ok+1))
+        wget -qO "$FILE_GEN"  "${RAW_BASE}/data/tmtgc-gen.txt" && ok=$((ok+1))
+    else
+        echo "Error: neither curl nor wget found" >&2; exit 1
+    fi
+    [[ $ok -eq 2 ]] && echo "Updated $FILE_REAL and $FILE_GEN" || { echo "Update failed" >&2; exit 1; }
+}
+
+MODE="all"
+for arg in "$@"; do
+    case "$arg" in
+        -o|--originals) MODE="real"   ;;
+        -g|--gen)       MODE="gen"    ;;
+        -a|--all)       MODE="all"    ;;
+        -u|--update)    MODE="update" ;;
+        -h|--help)      usage; exit 0 ;;
+        *) echo "Unknown option: $arg" >&2; usage >&2; exit 1 ;;
+    esac
+done
+
+case "$MODE" in
+    real)   pick_fortune "$FILE_REAL" ;;
+    gen)    pick_fortune "$FILE_GEN"  ;;
+    all)    pick_combined             ;;
+    update) do_update                 ;;
+esac
