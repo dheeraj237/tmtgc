@@ -84,24 +84,9 @@ if ! echo ":$PATH:" | grep -q ":$BIN_DIR:"; then
     echo ""
 fi
 
-# Offer to add alias to shell profile
+# Show user how to add tmtgc alias and auto-run to shell profile
+echo "To add tmtgc and auto-run on new shells, run:"
 echo ""
-read -p "Add 'tmtgc' alias to $SHELL_PROFILE? (Y/n) " -n 1 -r
+echo "  echo -e '\n# tmtgc alias and auto-run\nalias tmtgc=\"\$HOME/.local/bin/tmtgc\"\ntmtgc' >> $SHELL_PROFILE"
 echo ""
 
-if [[ $REPLY =~ ^[Yy]?$ ]]; then
-    ALIAS_LINE="alias tmtgc=\"\$HOME/.local/bin/tmtgc\""
-
-    # Check if alias already exists
-    if grep -q "alias tmtgc=" "$SHELL_PROFILE" 2>/dev/null; then
-        info "tmtgc alias already exists in $SHELL_PROFILE"
-    else
-        # Ensure file ends with newline before appending
-        [[ -n $(tail -c 1 "$SHELL_PROFILE") ]] && echo "" >> "$SHELL_PROFILE"
-        echo "$ALIAS_LINE" >> "$SHELL_PROFILE"
-        success "Added tmtgc alias to $SHELL_PROFILE"
-        echo ""
-        echo "  Reload your shell or run: source $SHELL_PROFILE"
-        echo ""
-    fi
-fi
