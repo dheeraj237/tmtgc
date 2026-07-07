@@ -4673,10 +4673,19 @@
   {
     "episode_number": 519,
     "title": "Why does my team not have a tech lead and rumors!",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than typing slash clear and incurring 300,000 tokens of expired AI context to be a great software engineer",
+    "has_intro": true,
     "date_published": "2026-06-29",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-519.mp3?source=rss",
     "transcript_excerpt": "It ticks more than typing slash cleared and incurring 300,000 tokens of expired AI context to be a great software engineer  This is saw skills engineering episode 519. I'm your host Dave Smith. I'm your host Jameson dance  Saw skills engineering is a weekly advice podcast for software engineers who have turned into token utility managers  I wrote a blog post about this a while ago, but software is now micro transaction-based and if you have a typo  It costs you five dollars. Yeah  All right, rat"
+  },
+  {
+    "episode_number": 520,
+    "title": "I came back to my former team and was shocked by AI and my team does not care at ALL about the code",
+    "intro": "It takes more than looking at a totally unrelated thing and saying, you know, this reminds me of programming to be a great software engineer.",
+    "has_intro": true,
+    "date_published": "2026-07-06",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-520.mp3?source=rss",
+    "transcript_excerpt": "It takes more than looking at a totally unrelated thing and saying, you know, this reminds me of programming to be a great software engineer  This is episode 520 of the soft skills engineering podcast where I'm your host James and dance  I'm your host Dave Smith soft skills engineering is a weekly advice show about all the non-technical things in the technical field of software development  Which funnily enough  Remind me of programming still even though they're not technical like like what like"
   }
 ]
