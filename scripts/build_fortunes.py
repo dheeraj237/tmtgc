@@ -6,7 +6,7 @@ import os
 import sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_JSON = os.path.join(SCRIPT_DIR, "..", "..", "episodes.json")
+DEFAULT_JSON = os.path.join(SCRIPT_DIR, "episodes.json")
 DEFAULT_OUT = os.path.join(SCRIPT_DIR, "..", "data", "tmtgc.txt")
 
 

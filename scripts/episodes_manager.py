@@ -295,7 +295,7 @@ async def do_onboard(episodes: list[dict], rss: list[Episode], args, ssl_ctx) ->
 
 
 async def do_fill_missing(episodes: list[dict], rss: list[Episode], args, ssl_ctx) -> None:
-    missing_entries = [e for e in episodes if not e.get("has_intro")]
+    missing_entries = sorted([e for e in episodes if not e.get("has_intro")], key=lambda e: e.get("episode_number", 0), reverse=True)
 
     if not missing_entries:
         print("All episodes already have intros — nothing to do.", flush=True)
