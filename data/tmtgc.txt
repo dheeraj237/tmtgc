@@ -780,4 +780,6 @@ It takes more than declaring bug bankruptcy to be a great engineer.
 %
 It takes more than making a leaderboard for your co-workers based on how quickly they approve your pull requests to be a great software engineer.
 %
+It takes more than typing slash clear and incurring 300,000 tokens of expired AI context to be a great software engineer
+%
 It takes more than looking at a totally unrelated thing and saying, you know, this reminds me of programming to be a great software engineer.
