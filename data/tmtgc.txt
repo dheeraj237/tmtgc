@@ -783,3 +783,5 @@ It takes more than making a leaderboard for your co-workers based on how quickly
 It takes more than typing slash clear and incurring 300,000 tokens of expired AI context to be a great software engineer
 %
 It takes more than looking at a totally unrelated thing and saying, you know, this reminds me of programming to be a great software engineer.
+%
+It takes more than using Chipotle's support bot to write code when you hit your daily claw token limit to be a great engineer.

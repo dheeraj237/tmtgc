@@ -4687,5 +4687,14 @@
     "date_published": "2026-07-06",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-520.mp3?source=rss",
     "transcript_excerpt": "It takes more than looking at a totally unrelated thing and saying, you know, this reminds me of programming to be a great software engineer  This is episode 520 of the soft skills engineering podcast where I'm your host James and dance  I'm your host Dave Smith soft skills engineering is a weekly advice show about all the non-technical things in the technical field of software development  Which funnily enough  Remind me of programming still even though they're not technical like like what like"
+  },
+  {
+    "episode_number": 521,
+    "title": "negotiating . . . now? and doing good work is not enough for promotion?",
+    "intro": "It takes more than using Chipotle's support bot to write code when you hit your daily claw token limit to be a great engineer.",
+    "has_intro": true,
+    "date_published": "2026-07-13",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-521.mp3?source=rss",
+    "transcript_excerpt": "It takes more than using Chipotle's support bot to write code when you hit your daily claw token limit to be a great engineer  This is soft skills engineering episode 521. I'm your host Dave Smith  I'm your host James and dance soft skills engineering is a weekly advice podcast for software engineers who are creatively trying to get  Machines to write the machine code for the other machines to read and run  What a world did Chipotle ever fixed that I heard about it  I heard about Chipotle code, "
   }
 ]
