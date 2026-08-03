@@ -4705,5 +4705,14 @@
     "date_published": "2026-07-20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-522.mp3?source=rss",
     "transcript_excerpt": "It takes more than turning a technical decision into a public skirmish to be a great software engineer  This is episode 522 of the Soft Skills Engineering Podcast, where I'm your host, Jameson Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is the weekly advice show about all the non-technical things that go into the technical field of software development.  Like, how to best dig up dirt about the person you disagree with and chuck it at them online.  That actually is Soft Skills.  I"
+  },
+  {
+    "episode_number": 523,
+    "title": "(Rerun of 331) Prickly ticket and title downgrade",
+    "intro": null,
+    "has_intro": false,
+    "date_published": "2026-07-27",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-523.mp3?source=rss",
+    "transcript_excerpt": "Good morning, good evening, good night, good midnight.  This is the Soft Skills Engineering podcast.  I'm James and Dance, and we are bringing you a rerun  from the distant past of 2022.  Dave and I have been out on a snipe hunt,  but we will be back next week with a new episode.  In the meantime, I hope you enjoy this deep cut  from our archives.  It takes more than keeping your code dry.  I mean, really dry.  I mean, really, really incredibly dry to be a great software  engineer.  This is epis"
   }
 ]
