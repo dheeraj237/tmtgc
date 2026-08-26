@@ -52,6 +52,8 @@ It takes more than detailed knowledge of BGP to be a great software engineer.
 %
 It takes more than great combinatoric skills to be a great software engineer.
 %
+It takes more than an exhaustive list of overly prescriptive linting rules to be a software engineer.
+%
 It takes more than great bit shifting skills to be a great engineer.
 %
 It takes more than great multitasking skills to be a great software engineer.
@@ -81,6 +83,8 @@ It takes more than great inversion of control skills to be a great engineer.
 It takes more than changing your job title on LinkedIn to does computer stuff real good to be a great software engineer.
 %
 It takes more than great unit test friendly thread safe singleton design pattern skills to be a great engineer.
+%
+It takes more than putting a load balancer in front of it to be a software engineer.
 %
 It takes more than figuring out how to exit VIM to be a great software engineer.
 %
@@ -113,6 +117,8 @@ It takes more than great reference counting skills to be a great engineer.
 It takes more than open ad dressing to be a great software engineer.
 %
 It takes more than great family tech support skills to be a great engineer.
+%
+It takes more than closing 45 open tabs about the CSS spec to be a software engineer.
 %
 It takes more than great elastic search tuning skills to be a great engineer.
 %
@@ -196,6 +202,8 @@ It takes more than laziness and patience and hubris to be a great engineer.
 %
 It takes more than load shedding via exponential back-off plus jitter to be a great engineer.
 %
+It takes more than a rubber duct to be a software engineer.
+%
 It takes more than name-dropping TikTok when talking to kids about a career in tech to be a great engineer.
 %
 It takes more than adding hereby dragons to every diagram you see on the office whiteboards to be a great software engineer.
@@ -229,6 +237,8 @@ It takes more than hiding mistakes by rebasing your feature branch to be a great
 It takes more than making it through the first four chapters of the Rust Book, over and over again to be a great software engineer.
 %
 It takes more than looking at Get-Log before stand-up to remember what you did yesterday to be a great engineer.
+%
+It takes more than creating a gooey interface using visual basic. You track the killer's IP address to be a great software engineer.
 %
 It takes more than sitting your kids in front of Disney Plus so you can get some work done to be a great engineer.
 %
@@ -282,6 +292,8 @@ It takes more than learning how to pronounce kube control, or kube CTL, or whate
 %
 It takes more than arguing about self-documenting code to be a great engineer.
 %
+It takes more than cursing your flaky VPN from your makeshift home office to be a great Ah crap it went out again. Oh, it's back to be a great engineer.
+%
 It takes more than being filled with regret for spending $80 million in Bitcoin on a $20 pizza in 2013 to be a great software engineer.
 %
 It takes more than memorizing FizzBuzz code by heart to be a great engineer.
@@ -324,11 +336,15 @@ It takes more than holding your conference t-shirts up to your nose and taking a
 %
 It takes more than producing technical debt at 10X the rate to be a great engineer.
 %
+It takes more than turning down meetings by saying let's do this over email, and then never checking your email. To be a great engineer.
+%
 It takes more than squinting at your SQL hard enough so you can call it machine learning to be a great engineer.
 %
 It takes more than advocating for pink mode as the new dark mode to be a great software engineer.
 %
 It takes more than pushing for design, compromise, and trade-offs and then closing all customer issues as works as designed to be a great engineer.
+%
+It takes more than agreeing with flat earthers, so your geopoint distance math is simpler. To be a great engineer.
 %
 It takes more than creating one cryptocurrency for each cat breed to be a great engineer.
 %
@@ -344,6 +360,8 @@ It takes more than jumping time zones in an effort to stay ahead of that deadlin
 %
 It takes more than trying to preemptively think of all the things you could accidentally break that were added 12 years ago on your legacy code base just because you want to add a new feature to be a great engineer.
 %
+It takes more than writing a blog post titled X considered harmful to be a software engineer.
+%
 It takes more than undefined to be a great engineer.
 %
 It takes more than doctorate, get blame screenshots, to be a great engineer.
@@ -355,6 +373,8 @@ It takes more than saying, does it scale during design review meetings to be a g
 It takes more than endorsing your colleagues for Microsoft Office on LinkedIn to be a great engineer.
 %
 It takes more than accidentally writing a sorting algorithm to be a great software engineer.
+%
+It takes more than leaving your dev console open all the time while you browse the internet just to see what other devs left in their console.log to be a great engineer.
 %
 It takes more than signing handwritten letters with Colin WQ, WQ, WQ instead of exo exo, exo to be a great software engineer.
 %
@@ -398,6 +418,8 @@ It takes more than thinking of an intro to be a great software engineer.
 %
 It takes more than pressing Ctrl C repeatedly to kill a fork bomb and then having to power cycle your computer to be a great engineer.
 %
+It takes more than 300 episodes of the Soft Skills Engineering podcast to be great at engineer.
+%
 It takes more than building a framework than nobody uses to be a great engineer.
 %
 It takes more than using regular expressions to replace all the instances of the word parser with regular expression in the dragon book to be a great software engineer.
@@ -428,6 +450,8 @@ It takes more than seeing another dev's editor set up, becoming jealous and dest
 %
 It takes more than hacking Patreon to get your intro read on the podcast to be a great engineer.
 %
+It takes more than giving poor ratings on your engagement survey to signal that you want to raise and don't want to come back to the office. Only to result in a strong correlation between low engagement and remote work to be a great shot myself in the foot of the engineer.
+%
 It takes more than using Dolly to generate technical diagrams so your manager will stop asking you to create documentation to be a great engineer.
 %
 It takes more than using GitHub co-pilot to generate your code reviews to be a great software engineer.
@@ -444,15 +468,21 @@ It takes more than using two thousand dollars worth of monitors to render a term
 %
 It takes more than writing slash slash to-do in your code editor and letting GitHub co-pilot fill in the rest of the comment and then doing that to be a great engineer.
 %
+It takes more than finding the issue on an open-source project that perfectly describes your problem, reading through it all and uncovering a message that you wrote years ago that just says plus one. To be a great software engineer.
+%
 It takes more than explaining ways you're slacking off with a parent service is down to be a great engineer.
 %
 It takes more than completing ticket number six six six on Halloween by accident to be a great software engineer.
 %
 It takes more than 30 minutes creating a flowchart and another 3 and a half hours to line up all the arrows to be a great engineer.
 %
+It takes more than keeping your code dry. I mean really dry. I mean really really incredibly dry to be a great software engineer.
+%
 It takes more than declaring browser tab bankruptcy, only to discover that the only copy of your AWS secret key was in one of the tabs to be a great engineer.
 %
 It takes more than automatically adding, what is it you're actually trying to do to all tickets to be a great engineer.
+%
+It takes more than replacing letters with numbers to be a G3TE6R engineer.
 %
 It takes more than using production as a repel environment to be a great engineer.
 %
@@ -470,6 +500,8 @@ It takes more than having chat GPT write your email, rescinding your acceptance 
 %
 It takes more than rewriting your I-O-bound crud app and Rust to be a great software engineer.
 %
+It takes more than being a great engineer to be unemployed engineer.
+%
 It takes more than slapping a queue on it to be a great software engineer.
 %
 It takes more than handling February 30th in your date code to be a great engineer.
@@ -480,9 +512,13 @@ It takes more than posting tons of content on LinkedIn to trick your manager int
 %
 It takes more than running your performance benchmark from a different directory in order to make it go faster to be a great software engineer.
 %
+It takes more than spending three hours to understand your Sass Fender's pricing model only to conclude that it is Unknowable and you have wasted your time. This. Oh, sorry to be a great engineer.
+%
 It takes more than pointing to a pile of divs and calling it a design system to be a great software engineer.
 %
 It takes more than understanding the Soft Skills Engineering Patreon Pricing System to be a great engineer.
+%
+It takes more than piping curl to SH and hoping for the best to be a software engineer.
 %
 It takes more than gaslighting chat GPT and to giving you forbidden answers to be a great engineer.
 %
@@ -496,6 +532,8 @@ It takes more than not understanding Star Wars references to be a great engineer
 %
 It takes more than remembering you have a meeting in three minutes, looking back at your code and then showing up five minutes late to be a great engineer.
 %
+It takes more than slipping a notecard-labeled.ds store into every book you open in your library. To be a great software engineer.
+%
 It takes more than being annoyed your tests are not passing, and then finding a bug in your code to be a great engineer.
 %
 It takes more than waiting for an hour for a build to finish only to realize you never actually started the build to be a great engineer.
@@ -506,9 +544,13 @@ It takes more than eating a carrot and calling it biohacking to be a great softw
 %
 It takes more than room temperature ambient pressure superconductivity to be a great engineer.
 %
+It takes more than looking at your newly hired co-workers resume. For inspiration while writing your own to be a great software engineer.
+%
 It takes more than running an AA test and proclaiming everything is under control to be a great engineer.
 %
 It takes more than a healthy disdain for your own code to be a great software engineer.
+%
+It takes more than endlessly reviewing a bunch of similar frameworks and never picking one. To be a great engineer.
 %
 It takes more than asking GPT to decide on syntax disagreements to be a great software engineer.
 %
@@ -554,6 +596,8 @@ It takes more than a copious backlog of unread books to be a great software engi
 %
 It takes more than doing prompt injection in your annual review to be a great engineer.
 %
+It takes more than doing all the menial work in your company because you're too afraid of the job market in 2024 to be a great hired software engineer.
+%
 It takes more than advising people to stay at their job and give it a chance, because you don't want them competing against you on the job market to be a great engineer.
 %
 It takes more than citing your own blog posts and code review to be a great software engineer.
@@ -584,6 +628,8 @@ It takes more than doing code review with an overhead projector and transparenci
 %
 It takes more than creating a new programming language named 10X to be the first real 10X developer to be a great engineer.
 %
+It takes exactly one off-by-one error to be a great engineer.
+%
 It takes more than repeatedly typing ampersand, asterisk, and dot get until it works to be a great engineer.
 %
 It takes more than trying to turn your brain off and on again by going for a walk to be a great software engineer.
@@ -606,6 +652,8 @@ It takes more than moving all your daily tasks back to the terminal to be a grea
 %
 It takes more than spending five minutes searching your terminal history for a four-character command to be a great engineer.
 %
+It takes more than reviewing every change to packagelock.json to be a great engineer.
+%
 It takes more than bullying the LLM by beginning your prompt with per my last message to be a great software engineer.
 %
 It takes more than dropping a production database like it's hot to be a great engineer.
@@ -615,6 +663,8 @@ It takes more than accidentally using markdown in a box that doesn't render mark
 It takes more than being kicked off Sesame Street for discussing dead letter cues to be a great engineer.
 %
 It takes more than an LED keyboard and mouse tuned to your editor to be a great software engineer.
+%
+It takes more than recognizing off by one errors to be two great engineers.
 %
 It takes more than a headphone dent in your hair to be a great software engineer.
 %
@@ -696,6 +746,10 @@ It takes more than a to-do list that ends the day larger than it started to be a
 %
 It takes more than monitoring five simultaneous cursor chat sessions to be a great engineer.
 %
+It takes more than keeping your mouse, keyboard, pencil, headphones, and other headphones all charged. To be a great software engineer.
+%
+It takes more than 1.21 gigawatts to be a great engineer.
+%
 It takes more than trying to pay for gas with your stock options to be a great software engineer.
 %
 It takes more than launching an agentic Sync Engine crypto miner startup to be a great engineer.
@@ -717,6 +771,8 @@ It takes more than color coordinating your headphones, your mouse, your escape k
 It takes more than trying to unfreeze a frozen app by clicking the buttons hundreds of times to be a great engineer.
 %
 It takes more than remembering that the blackout blinds that cover your window actually open to be a great software engineer.
+%
+It takes more than hosting your infrastructure on U.S. East to to be a great engineer.
 %
 It takes more than using emojis as variable names to be a great software engineer.
 %
@@ -764,6 +820,8 @@ It takes more than 100 gigabytes of RAM to be a great engineer.
 %
 It takes more than claiming I've done incredible work, but the risks of releasing it are too great to be a great software engineer.
 %
+It takes more than having 89.9% uptime and saying it's two nimes of availability to be a great engineer.
+%
 It takes more than lobbying to add salmon mode in addition to dark and light modes to your favorite product to be a great software engineer.
 %
 It takes more than smugly telling the LLM it was wrong about something to be a great engineer.
@@ -771,6 +829,8 @@ It takes more than smugly telling the LLM it was wrong about something to be a g
 It takes more than eight bits to be a great software engineer.
 %
 It takes more than threatening the AI with a PIP to be a great engineer.
+%
+It takes more than moving from thick clients to thin clients back to thick clients, then back to thin clients and then back again a few more times to be great software engineers.
 %
 It takes more than joining an empty zoom room to keep your computer from going to sleep while you a clawed session runs overnight to be a great engineer.
 %
@@ -787,6 +847,10 @@ It takes more than looking at a totally unrelated thing and saying, you know, th
 It takes more than using Chipotle's support bot to write code when you hit your daily claw token limit to be a great engineer.
 %
 It takes more than turning a technical decision into a public skirmish to be a great software engineer.
+%
+It takes more than keeping your code dry. I mean, really dry. I mean, really, really incredibly dry to be a great software engineer.
+%
+It takes more than getting a $1 trillion AWS bill to be a cloud-data engineer.
 %
 It takes more than getting into a good old-fashioned programming language fight to be a great software engineer.
 %

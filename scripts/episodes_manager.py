@@ -5,6 +5,8 @@ Usage:
   python3 episodes_manager.py                        Show this help
   python3 episodes_manager.py --onboard              Add new RSS episodes to JSON
   python3 episodes_manager.py --fill-missing         Fill episodes missing intros
+  python3 episodes_manager.py --reextract            Re-run extraction on saved
+                                                      transcript_excerpt, no download
   python3 episodes_manager.py --onboard --fill-missing
 
 Options:
@@ -47,7 +49,7 @@ WHISPER_WORKERS      = 2
 RANGE_BUFFER         = 1.1
 ITUNES_NS            = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 
-INTRO_RE = re.compile(r"(?i)(It takes more than[^.]*?to be a great (?:software )?engineer\.?)")
+INTRO_RE = re.compile(r"(?i)(It takes.*?to be.*?engineers?\b\.?)")
 
 
 # ── Data types ───────────────────────────────────────────────────────────────
@@ -294,6 +296,32 @@ async def do_onboard(episodes: list[dict], rss: list[Episode], args, ssl_ctx) ->
     print(f"Onboarded {added} episode(s), {found} with intro.", flush=True)
 
 
+def do_reextract(episodes: list[dict]) -> None:
+    """Re-run extract_intro() against the transcript_excerpt already saved in the JSON.
+
+    No network/download/transcribe — useful after an INTRO_RE change to pick up
+    newly-matchable intros for free. transcript_excerpt is truncated to 500 chars,
+    so this can miss episodes whose intro sits past that cutoff; run --fill-missing
+    for anything still missing afterwards.
+    """
+    missing_entries = [e for e in episodes if not e.get("has_intro")]
+    if not missing_entries:
+        print("All episodes already have intros — nothing to do.", flush=True)
+        return
+
+    updated = 0
+    for entry in missing_entries:
+        intro = extract_intro(entry.get("transcript_excerpt") or "")
+        if not intro:
+            continue
+        entry["intro"] = intro
+        entry["has_intro"] = True
+        updated += 1
+        print(f"  [{entry.get('episode_number')}] {intro}", flush=True)
+
+    print(f"Re-extracted {updated}/{len(missing_entries)} intro(s) from saved transcript_excerpt (no download).", flush=True)
+
+
 async def do_fill_missing(episodes: list[dict], rss: list[Episode], args, ssl_ctx) -> None:
     missing_entries = sorted([e for e in episodes if not e.get("has_intro")], key=lambda e: e.get("episode_number", 0), reverse=True)
 
@@ -393,12 +421,16 @@ Examples:
   python3 episodes_manager.py --fill-missing --model small --windows 60,120,180
   python3 episodes_manager.py --fill-missing --enable-pass2
   python3 episodes_manager.py --onboard --fill-missing
+  python3 episodes_manager.py --reextract
         """,
     )
     parser.add_argument("--onboard", action="store_true",
                         help="Fetch RSS and add any new episodes to the JSON")
     parser.add_argument("--fill-missing", action="store_true", dest="fill_missing",
                         help="Transcribe episodes that are missing intros")
+    parser.add_argument("--reextract", action="store_true", dest="reextract",
+                        help="Re-run intro extraction against saved transcript_excerpt only "
+                             "(no download/transcribe)")
     parser.add_argument("--model", default=DEFAULT_MODEL_P1, metavar="MODEL",
                         help=f"Whisper model for Pass 1 (default: {DEFAULT_MODEL_P1})")
     parser.add_argument("--windows", default=",".join(str(w) for w in DEFAULT_WINDOWS),
@@ -423,14 +455,16 @@ async def main(args) -> None:
     episodes = load_json(JSON_PATH)
     print(f"Loaded {len(episodes)} episodes from {JSON_PATH}", flush=True)
 
-    rss = await fetch_feed(ssl_ctx)
-    print(f"RSS feed: {len(rss)} episodes", flush=True)
-
     try:
-        if args.onboard:
-            await do_onboard(episodes, rss, args, ssl_ctx)
-        if args.fill_missing:
-            await do_fill_missing(episodes, rss, args, ssl_ctx)
+        if args.reextract:
+            do_reextract(episodes)
+        if args.onboard or args.fill_missing:
+            rss = await fetch_feed(ssl_ctx)
+            print(f"RSS feed: {len(rss)} episodes", flush=True)
+            if args.onboard:
+                await do_onboard(episodes, rss, args, ssl_ctx)
+            if args.fill_missing:
+                await do_fill_missing(episodes, rss, args, ssl_ctx)
     finally:
         save_json(episodes, JSON_PATH)
 
@@ -439,7 +473,7 @@ if __name__ == "__main__":
     parser = build_parser()
     args = parser.parse_args()
 
-    if not args.onboard and not args.fill_missing:
+    if not args.onboard and not args.fill_missing and not args.reextract:
         parser.print_help()
         sys.exit(0)
 

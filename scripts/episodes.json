@@ -947,8 +947,8 @@
   {
     "episode_number": 105,
     "title": "Interviewing for Management and Annoying Noises",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than an exhaustive list of overly prescriptive linting rules to be a software engineer.",
+    "has_intro": true,
     "date_published": "2018-04-12",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-105.mp3?source=rss",
     "transcript_excerpt": "It takes more than an exhaustive list of overly prescriptive  linting rules to be a software engineer.  This is episode 105 of The Soft Skills Engineering Podcast.  I'm your host, Jameson Dance.  I'm your host and human litter, Dave Smith.  I just turned on a linter on one of my projects  and it just made me mad.  It's so stupid.  It's just thousands of useless errors that don't matter.  I feel like you are going through the stages of grief.  The first one is denial, then anger, then bargaining."
@@ -1109,8 +1109,8 @@
   {
     "episode_number": 123,
     "title": "Salary Promise Fail and Slacker Coworkers",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than putting a load balancer in front of it to be a software engineer.",
+    "has_intro": true,
     "date_published": "2018-09-10",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-123.mp3?source=rss",
     "transcript_excerpt": "It takes more than putting a load balancer in front of it  to be a software engineer.  This is episode 123 of the Soft Skills Engineering podcast.  I'm your host, James and Dance.  I'm your host, Dave Smith.  We never talk about what you're gonna say beforehand,  and then I always start just laughing in the middle of it.  Success!  That's a core tenant of software development.  It solves a lot of problems.  You know what problems it doesn't solve, though?  The soft kind?  Yeah, all of the non-te"
@@ -1262,8 +1262,8 @@
   {
     "episode_number": 140,
     "title": "Should I apologize for my bugs after I quit and should I become a project manager",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than closing 45 open tabs about the CSS spec to be a software engineer.",
+    "has_intro": true,
     "date_published": "2019-01-14",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-140.mp3?source=rss",
     "transcript_excerpt": "It takes more than closing 45 open tabs about the CSS spec to be a software engineer.  This is episode 140 of the Soft Skills Engineering podcast, and I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a podcast where we answer your questions about all the non-technical parts  of software development, and we talk about the CSS spec, I guess.  Well, you know that it's CSS stands for.  I thought I did until you asked me that question.  I'm like, this would be a"
@@ -1667,8 +1667,8 @@
   {
     "episode_number": 185,
     "title": "Fragile coworkers and soft demotion",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than a rubber duct to be a software engineer.",
+    "has_intro": true,
     "date_published": "2019-11-25",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-185.mp3?source=rss",
     "transcript_excerpt": "It takes more than a rubber duct to be a software engineer.  This is episode 185 of the Soft Skills Engineering podcast.  I am your host, Jameson Dance.  I am your host, Dave Smith.  Soft Skills Engineering is a weekly advice show  where we answer all of your non-technical questions  about the technical field of software development.  I also pronounced it podcast instead of podcast.  I noticed that.  I just wanted to reassure our listeners  I do know most English.  That's good.  It's not even Oc"
@@ -1829,8 +1829,8 @@
   {
     "episode_number": 203,
     "title": "Downturns and conflict",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than creating a gooey interface using visual basic. You track the killer's IP address to be a great software engineer.",
+    "has_intro": true,
     "date_published": "2020-03-30",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-203.mp3?source=rss",
     "transcript_excerpt": "It takes more than creating a gooey interface using visual basic.  You track the killer's IP address to be a great software engineer.  This is episode 203 of The Soft Skills Engineering Podcast.  I'm your host James and Dance.  I'm your host Dave Smith.  Soft Skills Engineering is a weekly advice show where we answer your non-technical questions  about the technical field of software development.  And I guess talk about like old memes.  Did you ever watch CSI?  I knew this was a reference to som"
@@ -2072,8 +2072,8 @@
   {
     "episode_number": 230,
     "title": "Not seeking promotion and taking code",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than cursing your flaky VPN from your makeshift home office to be a great Ah crap it went out again. Oh, it's back to be a great engineer.",
+    "has_intro": true,
     "date_published": "2020-10-05",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-230.mp3?source=rss",
     "transcript_excerpt": "It takes more than cursing your flaky VPN from your makeshift home office to be a great  Ah crap it went out again. Oh, it's back to be a great engineer  This is soft skills engineering episode 230. I'm your host Dave Smith. I'm your host Jameson dance  Soft skills engineering is a weekly advice podcast about the softer side of software development all the non-text of  That was a pretty speedy VPN blip if it didn't drop any audio  No distortion at all. I had a backup recording. Oh  Okay, if you'"
@@ -2297,8 +2297,8 @@
   {
     "episode_number": 255,
     "title": "Only positive feedback and overworked and siloed",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than turning down meetings by saying let's do this over email, and then never checking your email. To be a great engineer.",
+    "has_intro": true,
     "date_published": "2021-04-05",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-255.mp3?source=rss",
     "transcript_excerpt": "It takes more than turning down meetings by saying let's do this over email,  and then never checking your email. To be a great engineer, this is episode 255  of The Soft Skills Engineering Podcast. I'm your host, James and Dance.  I'm your host, Dave Smith. Soft Skills Engineering is a weekly advice show,  where we answer your non-technical questions about the technical field of software development.  And sometimes I get called out for wanting to do asynchronous things,  and that meaning not wa"
@@ -2333,8 +2333,8 @@
   {
     "episode_number": 259,
     "title": "Moving up to meetings and will remote work stay a thing?",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than agreeing with flat earthers, so your geopoint distance math is simpler. To be a great engineer.",
+    "has_intro": true,
     "date_published": "2021-05-10",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-259.mp3?source=rss",
     "transcript_excerpt": "It takes more than agreeing with flat earthers, so your geopoint distance math is simpler.  To be a great engineer, this is episode 259 of The Soft Skills Engineering Podcast.  I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show on the non-technical parts of the technical field of software development.  I feel like map makers might like you a little bit more too.  What if you didn't have to worry about projection?  Oh yeah.  What if it was"
@@ -2414,8 +2414,8 @@
   {
     "episode_number": 268,
     "title": "Title inflation and solo remote engineer",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than writing a blog post titled X considered harmful to be a software engineer.",
+    "has_intro": true,
     "date_published": "2021-08-23",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-268.mp3?source=rss",
     "transcript_excerpt": "It takes more than writing a blog post titled X considered harmful to be a software engineer.  This is episode 268 of the Soft Skills Engineering Podcast.  I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show where we answer your non-technical questions  about the technical field of software development.  And we also note that lots of people use the same title for their blog books.  Do you know about the, I guess I should explain the joke, "
@@ -2486,8 +2486,8 @@
   {
     "episode_number": 276,
     "title": "Startup or big company and negotiating your exit?",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than leaving your dev console open all the time while you browse the internet just to see what other devs left in their console.log to be a great engineer.",
+    "has_intro": true,
     "date_published": "2021-11-01",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-276.mp3?source=rss",
     "transcript_excerpt": "It takes more than leaving your dev console open all the time while you browse the internet  just to see what other devs left in their console.log to be a great engineer.  This is Soft Skills Engineering Episode 276. I am your host, Dave Smith.  I am your host, James and Dance.  Soft Skills Engineering is a weekly advice podcast for software developers  to answer all of your questions about the non-technical stuff.  What is the coolest thing you've seen in console in the dev console?  It's proba"
@@ -2702,8 +2702,8 @@
   {
     "episode_number": 300,
     "title": "Manager move and cultural or personal",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than 300 episodes of the Soft Skills Engineering podcast to be great at engineer.",
+    "has_intro": true,
     "date_published": "2022-04-18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-300.mp3?source=rss",
     "transcript_excerpt": "It takes more than 300 episodes of the Soft Skills Engineering podcast to be great at engineer  This is episode 300 of said podcast. I'm your host James and dance  I'm your host Dave Smith. This is a weekly advice show for  Technical people about non-technical stuff and I guess technically we have not done 300 episodes because we skipped our hundredth episode  Do you remember that? Yeah, we did the pressure was too much, so we just didn't do it  We went from 99 to 101. Yeah, and the subsequent o"
@@ -2855,8 +2855,8 @@
   {
     "episode_number": 317,
     "title": "Process renegades and hiding my disgrunteledness",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than giving poor ratings on your engagement survey to signal that you want to raise and don't want to come back to the office. Only to result in a strong correlation between low engagement and remote work to be a great shot myself in the foot of the engineer.",
+    "has_intro": true,
     "date_published": "2022-08-15",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-317.mp3?source=rss",
     "transcript_excerpt": "It takes more than giving poor ratings on your engagement survey to signal that you want to raise and don't want to come back to the office.  Only to result in a strong correlation between low engagement and remote work to be a great shot myself in the foot of the engineer.  This is episode 317 of the Soft Skills Engineering Podcast. I'm your host, Jameson Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly show where we talk about the non-technical things, about the technica"
@@ -2945,8 +2945,8 @@
   {
     "episode_number": 327,
     "title": "Remote with onsite team and undercover refactor",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than finding the issue on an open-source project that perfectly describes your problem, reading through it all and uncovering a message that you wrote years ago that just says plus one. To be a great software engineer.",
+    "has_intro": true,
     "date_published": "2022-10-24",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-327.mp3?source=rss",
     "transcript_excerpt": "It takes more than finding the issue on an open-source project that perfectly describes  your problem, reading through it all and uncovering a message that you wrote years ago that  just says plus one.  To be a great software engineer, this is episode 327 of The Soft Skills Engineering Podcast.  I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show for all the non-technical things that go  into the technical field of software development.  B"
@@ -2981,8 +2981,8 @@
   {
     "episode_number": 331,
     "title": "Prickly ticket and title downgrade",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than keeping your code dry. I mean really dry. I mean really really incredibly dry to be a great software engineer.",
+    "has_intro": true,
     "date_published": "2022-11-21",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-331.mp3?source=rss",
     "transcript_excerpt": "It takes more than keeping your code dry. I mean really dry. I mean really really incredibly dry to be a great software engineer  This is episode 331 of the soft skills engineering podcast. I'm your host James and dance. I'm your host and lotion bringer Dave Smith  Soft skills engineering is a weekly advice show about all the non-technical parts of this technical field of software development  In which we repeat over and over again. Don't repeat yourself.  Actually, I have a hard time repeating "
@@ -3017,8 +3017,8 @@
   {
     "episode_number": 335,
     "title": "Senior questions and overly optimistic",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than replacing letters with numbers to be a G3TE6R engineer.",
+    "has_intro": true,
     "date_published": "2022-12-19",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-335.mp3?source=rss",
     "transcript_excerpt": "It takes more than replacing letters with numbers to be a G3TE6R engineer.  This is episode 335 of The Soft Skills Engineering Podcast, and I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show where we talk about all of the non-technical things that go into this technical field of software development.  And ponder on this trend, which I found out has a name.  A numero name.  It's a number based word.  Like K9.  N-U-M-E-R-O-M-I-A.  Don't you"
@@ -3098,8 +3098,8 @@
   {
     "episode_number": 344,
     "title": "Showing impact without hiring and over over over engineering",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than being a great engineer to be unemployed engineer.",
+    "has_intro": true,
     "date_published": "2023-02-20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-344.mp3?source=rss",
     "transcript_excerpt": "It takes more than being a great engineer to be unemployed engineer.  Oof, this is SoftSkills Engineering episode 344, I'm your host, Dave Smith.  I'm your host, James Entance.  SoftSkills Engineering is a weekly advice podcast for software engineers of all employment levels.  And I guess this is my way of just saying sorry to all those who have lost employment recently.  However, with some of the severance packages that I've seen advertised, it might be a little while before you actually lose i"
@@ -3152,8 +3152,8 @@
   {
     "episode_number": 350,
     "title": "Bombing a technical interview and background vetting",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than spending three hours to understand your Sass Fender's pricing model only to conclude that it is Unknowable and you have wasted your time. This. Oh, sorry to be a great engineer.",
+    "has_intro": true,
     "date_published": "2023-04-03",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-350.mp3?source=rss",
     "transcript_excerpt": "It takes more than spending three hours to understand your Sass Fender's pricing model only to conclude that it is  Unknowable and you have wasted your time. This. Oh, sorry to be a great engineer  this  Just in life  This is off-skills engineering episode 350. I'm your host Dave Smith  I'm your host James and dance soft skills engineering is a weekly advice podcast for software developers and  Occasionally those who want to understand how much things cost and conclude that you cannot imagine if"
@@ -3179,8 +3179,8 @@
   {
     "episode_number": 353,
     "title": "Easter outage and unethical things",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than piping curl to SH and hoping for the best to be a software engineer.",
+    "has_intro": true,
     "date_published": "2023-04-24",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-353.mp3?source=rss",
     "transcript_excerpt": "It takes more than piping curl to SH and hoping for the best to be a software engineer. This is episode  353 of the Soft Skills Engineering podcast. I'm your host Jameson Dance. I'm your host Dave Smith  Soft Skills Engineering is your weekly advice show about all the non-technical things that go into the technical field of software development like  How to admit to your co-workers that you  Accidentally gave someone your your your AWS  Authentication keys when you piped curl to SH trying to ins"
@@ -3251,8 +3251,8 @@
   {
     "episode_number": 361,
     "title": "Get git and non-tech ramping up",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than slipping a notecard-labeled.ds store into every book you open in your library. To be a great software engineer.",
+    "has_intro": true,
     "date_published": "2023-06-19",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-361.mp3?source=rss",
     "transcript_excerpt": "It takes more than slipping a notecard-labeled.ds store into every book you open in your library.  To be a great software engineer, this is episode 361 of The Soft Skills Engineering Podcast.  I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show about all the non-technical things  that go into the technical field of software development, and where we make jokes about  the macOS file systems metadata format, I guess.  We kind of have a theme"
@@ -3314,8 +3314,8 @@
   {
     "episode_number": 368,
     "title": "Manager in crisis and cutting costs",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than looking at your newly hired co-workers resume. For inspiration while writing your own to be a great software engineer.",
+    "has_intro": true,
     "date_published": "2023-08-07",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-368.mp3?source=rss",
     "transcript_excerpt": "It takes more than looking at your newly hired co-workers resume.  For inspiration while writing your own to be a great software engineer, this is episode  368 of The Soft Skills Engineering Podcasts and I am your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show about all the non-technical stuff that goes  into the technical field of software development, like this is an advanced form of  resume-driven development.  It's like resume-driven hirin"
@@ -3341,8 +3341,8 @@
   {
     "episode_number": 371,
     "title": "After Mary Poppins and credit denied",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than endlessly reviewing a bunch of similar frameworks and never picking one. To be a great engineer.",
+    "has_intro": true,
     "date_published": "2023-08-28",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-371.mp3?source=rss",
     "transcript_excerpt": "It takes more than endlessly reviewing a bunch of similar frameworks and never picking  one.  To be a great engineer, this is Soft Skills Engineering Episode 371.  I am your host, Dave Smith.  I'm your host, Jameson Dance.  Soft Skills Engineering is a weekly advice podcast for people who just can't pick that framework  because a new one comes out before you can complete the research on the old one.  Not even that.  Can you really know a framework unless you've built a major application in it?  "
@@ -3548,8 +3548,8 @@
   {
     "episode_number": 394,
     "title": "Scrum master, weapons master and minimum tenure to not look bad",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than doing all the menial work in your company because you're too afraid of the job market in 2024 to be a great hired software engineer.",
+    "has_intro": true,
     "date_published": "2024-02-05",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-394.mp3?source=rss",
     "transcript_excerpt": "It takes more than doing all the menial work in your company because you're too afraid of the job market in 2024 to be a great  hired software engineer. This is episode  394 of the Soft Skills Engineering podcast. I'm your host James and Dance. I am your host Dave Smith  Soft Skills Engineering is a weekly advice show about all the non-technical stuff that goes into the technical field of software development and  A lot of it has to do with staying hired  Yes, getting hired and staying hired. Ye"
@@ -3692,8 +3692,8 @@
   {
     "episode_number": 410,
     "title": "Guaranteed cost-of-living raises and my manager doesn't like me",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes exactly one off-by-one error to be a great engineer.",
+    "has_intro": true,
     "date_published": "2024-05-27",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-410.mp3?source=rss",
     "transcript_excerpt": "It takes exactly one off-by-one error to be a great engineer. This is episode 410 of the Softscales Engineering Podcast, and I'm your host, James and Dance.  I'm your host, Dave Smith.  Softscales Engineering is your weekly advice show about all the non-technical things that go into the technical field of software development.  And I'm trying to think of an off-by-one joke.  And I'm off-by-one from having an off-by-one joke.  Yeah, I don't know.  Exactly one off-by-one error. That was good.  Thi"
@@ -3809,8 +3809,8 @@
   {
     "episode_number": 423,
     "title": "freedom from deadlines and Actual firefighting to software firefighting",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than reviewing every change to packagelock.json to be a great engineer.",
+    "has_intro": true,
     "date_published": "2024-08-26",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-423.mp3?source=rss",
     "transcript_excerpt": "It takes more than reviewing every change to packagelock.json to be a great engineer  This is soft skills engineering episode 423. I'm your host Dave Smith. I'm your host Jameson Dates  Soft skills engineering is a weekly advice podcast for software developers who just  Would rather not review all 10,000 lines of the package lock jason changes. Yeah, I'm not a good. I'm not a great engineer then  Because I don't look at that crap. Actually, do I I guess I look at it as a signal of hey, it got a "
@@ -3863,8 +3863,8 @@
   {
     "episode_number": 429,
     "title": "Should I quit my job for free hoodies and manager to IC",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than recognizing off by one errors to be two great engineers.",
+    "has_intro": true,
     "date_published": "2024-10-07",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-429.mp3?source=rss",
     "transcript_excerpt": "It takes more than recognizing off by one errors to be two great engineers. This is soft skills engineering episode 429  I'm your host Dave Smith. I'm your host James and Dan soft skills engineering is a weekly advice podcast for software developers who just never could figure out the difference between one and two  I think if you buy induction. Yeah, there's off by infinity errors, right? I was just thinking  The induction is the way to demonstrate this, but I don't think it's off by infinity. "
@@ -4250,8 +4250,8 @@
   {
     "episode_number": 472,
     "title": "Should my junior dev use AI and thrown in to ETL",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than keeping your mouse, keyboard, pencil, headphones, and other headphones all charged. To be a great software engineer.",
+    "has_intro": true,
     "date_published": "2025-08-04",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-472.mp3?source=rss",
     "transcript_excerpt": "It takes more than keeping your mouse, keyboard, pencil, headphones, and other headphones  all charged.  To be a great software engineer, this is episode 472 of The Soft Skills Engineering Podcast,  where I'm your host, Jameson Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show about all the non-technical things that go  into the technical field of software development, like turning your pencil off and on again.  Oh man, we have so much crap to keep charged.  We "
@@ -4259,8 +4259,8 @@
   {
     "episode_number": 473,
     "title": "Mental health support and overcoming FOMO of taking a break from work",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than 1.21 gigawatts to be a great engineer.",
+    "has_intro": true,
     "date_published": "2025-08-11",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-473.mp3?source=rss",
     "transcript_excerpt": "It takes more than 1.21 gigawatts to be a great engineer. This is Soft Skills Engineering  episode 473. I'm your host, Dave Smith. I'm your host, Jameson Dance. Soft Skills Engineering  is a weekly advice podcast about all the non-technical things that go into the software development  of many, many gigawatts and gigabytes and gigaflops and all the other gigas. I don't think I've  ever thought about power being involved in my job except now with AI consuming all  the power. Suddenly 1.21 gigawat"
@@ -4367,8 +4367,8 @@
   {
     "episode_number": 485,
     "title": "I'm terrible at hiring decisions and my coworker spams us with AI-generated memes",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than hosting your infrastructure on U.S. East to to be a great engineer.",
+    "has_intro": true,
     "date_published": "2025-11-03",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-485.mp3?source=rss",
     "transcript_excerpt": "It takes more than hosting your infrastructure on U.S. East to to be a great engineer  This is soft skills engineering episode 485. I'm your host Dave Smith. I'm your host, Jameson dance  Soft skills engineering is a weekly advice podcast for software developers who if you're like me  And you don't let your friends host on U.S. East one you had a great week  Especially Monday morning two thoughts about this one. I'm gonna use this excuse that U.S. East one went down  For everything for as long a"
@@ -4583,8 +4583,8 @@
   {
     "episode_number": 509,
     "title": "I hate AI software dev, so should I become a manager and leading, not doing",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than having 89.9% uptime and saying it's two nimes of availability to be a great engineer.",
+    "has_intro": true,
     "date_published": "2026-04-20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-509.mp3?source=rss",
     "transcript_excerpt": "It takes more than having 89.9% uptime and saying it's two nimes of availability to be a great engineer  This is soft skills engineering episode 509. I'm your host Dave Smith  I'm your host James and dance and this episode has one nine of availability  That's right soft skills engineering is a weekly advice podcast for software engineers who know how to be creative with the nines  I mean build a product people want to use so badly that it can be down for days at a time  Yeah, they come back. Yea"
@@ -4628,8 +4628,8 @@
   {
     "episode_number": 514,
     "title": "Trust issues and underperformers and my coworker resents me for being faster",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than moving from thick clients to thin clients back to thick clients, then back to thin clients and then back again a few more times to be great software engineers.",
+    "has_intro": true,
     "date_published": "2026-05-25",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-514.mp3?source=rss",
     "transcript_excerpt": "It takes more than moving from thick clients to thin clients back to thick clients, then back to thin clients and then back again a few more times to be great software engineers  This is episode 514 of the soft skills engineering podcast where I'm your host James and dance. I'm your host Dave Smith  Soft skills engineering is a weekly advice show about all the non-technical things that go into the technical field of software development like  Decorating your thin client. What do they call those "
@@ -4709,8 +4709,8 @@
   {
     "episode_number": 523,
     "title": "(Rerun of 331) Prickly ticket and title downgrade",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than keeping your code dry. I mean, really dry. I mean, really, really incredibly dry to be a great software engineer.",
+    "has_intro": true,
     "date_published": "2026-07-27",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-523.mp3?source=rss",
     "transcript_excerpt": "Good morning, good evening, good night, good midnight.  This is the Soft Skills Engineering podcast.  I'm James and Dance, and we are bringing you a rerun  from the distant past of 2022.  Dave and I have been out on a snipe hunt,  but we will be back next week with a new episode.  In the meantime, I hope you enjoy this deep cut  from our archives.  It takes more than keeping your code dry.  I mean, really dry.  I mean, really, really incredibly dry to be a great software  engineer.  This is epis"
@@ -4718,8 +4718,8 @@
   {
     "episode_number": 524,
     "title": "My CTO AI-codes big piles of slop and early mornings, late meetings",
-    "intro": null,
-    "has_intro": false,
+    "intro": "It takes more than getting a $1 trillion AWS bill to be a cloud-data engineer.",
+    "has_intro": true,
     "date_published": "2026-08-03",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-524.mp3?source=rss",
     "transcript_excerpt": "It takes more than getting a $1 trillion AWS bill to be a cloud-data engineer. This is Soft Skills Engineering Episode 5-24. I am your host Dave Smith.  I am your host, Jameson Danes.  Soft Skills Engineering is a weekly advice podcast for people who just blindly click the pay the invoice button and end up making Amazon even richer.  I think they should have made it up to everybody by sending them a $1 trillion and one cent credit to offset the $1 trillion bill.  That would be cooler than saying"
