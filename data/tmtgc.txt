@@ -855,3 +855,5 @@ It takes more than getting a $1 trillion AWS bill to be a cloud-data engineer.
 It takes more than getting into a good old-fashioned programming language fight to be a great software engineer.
 %
 It takes more than creating a zero-day exploit to hack your sandbox and cheat on an AI benchmark to be a great engineer.
+%
+It takes more than yelling product cast monkey as you randomly close tickets in your backlog to be a great software engineer.
