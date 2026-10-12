@@ -867,3 +867,5 @@ It takes more than accidentally clicking leave meeting instead of unmute to be a
 It takes more than becoming a subversion version control hipster to be a great software engineer.
 %
 It takes more than leaving your laptop in clamshell mode over the weekend and coming to work on Monday with the $3,000 bill to be a great engineer.
+%
+It takes more than having no clue what Terraform is and throwing random Atlantis plant commands into the Abyss to be a great engineer.

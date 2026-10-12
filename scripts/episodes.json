@@ -4804,5 +4804,14 @@
     "date_published": "2026-10-05",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-533.mp3?source=rss",
     "transcript_excerpt": "It takes more than typing deploy the app, make no mistakes into bash by accident, and finding out there's no deploy keyword.  It'd be a great software engineer.  This is episode 533 of The Soft Skills Engineering Podcast, where I'm your host, James and Dan.  I'm your host, Dave Smith.  Soft Skills Engineering is a weekly advice show about the non-technical things that go into the technical field of software development.  Like remembering syntax exists.  Yeah, you know, you don't care anymore.  Y"
+  },
+  {
+    "episode_number": 534,
+    "title": "I'm so bad at my job and I've inherited a huge slop pile",
+    "intro": "It takes more than having no clue what Terraform is and throwing random Atlantis plant commands into the Abyss to be a great engineer.",
+    "has_intro": true,
+    "date_published": "2026-10-12",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-534.mp3?source=rss",
+    "transcript_excerpt": "It takes more than having no clue what Terraform is and throwing random Atlantis plant commands into the Abyss to be a great engineer  This is Sawskill's engineering episode 534. I'm your host Dave Smith  I'm your host James and dance  Sawskill's engineering is a weekly advice podcast for engineers whose scope of impact of their English language  commands  Knows no bounds or depth  limitations  I do like the Abyss. I like the metaphor here. Yes  Atlantis the Abyss. Oh, that was great. I wondered"
   }
 ]
