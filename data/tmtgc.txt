@@ -869,3 +869,5 @@ It takes more than becoming a subversion version control hipster to be a great s
 It takes more than leaving your laptop in clamshell mode over the weekend and coming to work on Monday with the $3,000 bill to be a great engineer.
 %
 It takes more than having no clue what Terraform is and throwing random Atlantis plant commands into the Abyss to be a great engineer.
+%
+It takes more than prominently displaying a long sword on the wall behind you and saying, oh, that's just my emotional support sword. When asked about it in a Zoom meeting to be a great software engineer.
