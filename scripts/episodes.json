@@ -4822,5 +4822,14 @@
     "date_published": "2026-10-19",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-535.mp3?source=rss",
     "transcript_excerpt": "It takes more than prominently displaying a long sword on the wall behind you and saying,  oh, that's just my emotional support sword.  When asked about it in a Zoom meeting to be a great software engineer, this is episode  535 of the Soft Skills Engineering Podcast where I'm your host, James and Dance.  I'm your host, Dave Smith.  Soft Skills Engineering is your weekly advice show about all the non-technical things that  go into the technical field of software development like your interior dec"
+  },
+  {
+    "episode_number": 536,
+    "title": "Mentoring and how to help my team not lose their soul to AI?",
+    "intro": "It takes more than using AI to automate your mandatory training to be a great compliance software engineer.",
+    "has_intro": true,
+    "date_published": "2026-10-26",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-536.mp3?source=rss",
+    "transcript_excerpt": "It takes more than using AI to automate your mandatory training to be a great compliance software engineer.  This is SawSkills Engineering Episode 536. I'm your host Dave Smith.  I'm your host, James and Dance.  SawSkills Engineering is a weekly advice podcast for software developers about all the non-technical stuff that goes into being a software engineer,  including how to complete your mandatory compliance training.  Back in my day, we had to, with our bare hands, open the dev tools and type"
   }
 ]

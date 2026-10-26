@@ -871,3 +871,5 @@ It takes more than leaving your laptop in clamshell mode over the weekend and co
 It takes more than having no clue what Terraform is and throwing random Atlantis plant commands into the Abyss to be a great engineer.
 %
 It takes more than prominently displaying a long sword on the wall behind you and saying, oh, that's just my emotional support sword. When asked about it in a Zoom meeting to be a great software engineer.
+%
+It takes more than using AI to automate your mandatory training to be a great compliance software engineer.
