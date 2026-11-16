@@ -875,3 +875,7 @@ It takes more than prominently displaying a long sword on the wall behind you an
 It takes more than using AI to automate your mandatory training to be a great compliance software engineer.
 %
 It takes more than the number four to be a great software engineer.
+%
+It takes more than following move fast and break things to be a great autonomous driving engineer.
+%
+It takes more than making spaghetti with red number 40 as the main ingredient to be a great software engineer.
